@@ -1,0 +1,243 @@
+body {
+	background: #e5e5e5 url(images/patterns/mooning.png);
+	overflow-x: hidden;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+img, p {
+	-webkit-touch-callout: none;
+}
+p {
+	font: 500 15px/1.8 'Optima','Songti SC','Verdana','Microsoft Yahei',simsun,serif;
+	cursor: default;
+}
+a:not(.btn) {
+	color: #00699E;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	transition: 300ms;
+}
+a:hover:not(.btn),
+a:active:not(.btn) {
+	color: #9E0000;
+	text-decoration: none;
+	-webkit-transform: translateY(-8px);
+	-moz-transform: translateY(-8px);
+	transform: translateY(-8px);
+}
+.padding-huge {
+	padding: 27px;
+}
+.padding-large {
+	padding: 45px;
+}
+.padding-middle {
+	padding: 25px;
+}
+.no-radius {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;	
+}
+p.wo:first-letter {
+	font-size: 115%;
+	padding-right: 1px;	
+}
+.relative {
+	position: relative;
+}
+.button {
+	margin: 20px auto;
+}
+hr.soften {
+	height: 1px;
+	margin: 30px 0;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	border: 0;
+}
+
+h4, h5{
+	color: rgb(172, 218, 243);
+}
+.fix-space50{
+	clear: both;
+	postion: relative;
+	height:50px;
+}
+.nav a {
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	transition: 500ms;
+}
+header {
+	margin-top: 40px;	
+}
+
+.description {
+	position: relative;
+	margin-top: -267px;
+	-webkit-animation: description-in 1s ease-out 0 1 forwards;
+}
+.description h4, 
+.description h5 {
+	cursor: default;
+}
+.shadow {
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0.2)), color-stop(100%,rgba(255, 255, 255, 0)));
+	border-top: 1px solid #e0e0e0;	
+	z-index: -999;
+}
+img.profile {
+	max-width: 100px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	transition: 500ms;
+	
+	-webkit-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
+}
+img.profile:hover {
+	-webkit-animation: profile-img-hover 1000ms ease-out 100ms infinite forwards;
+}
+img.profile:active {
+	-webkit-animation: profile-img-active 500ms linear 0 infinite forwards;
+}
+img.profile.loading {
+}
+hr {
+	width: 100%;
+	height: 3px;
+	margin: 20 0 20 0;
+}
+.muiti-contact,
+.hover,
+.fadeout,
+email,
+at,
+sns,
+web {
+	-webkit-transition: all .35s linear .2s;
+	-moz-transition: all .35s linear .2s;
+	transition: all .35s linear .2s;
+}
+.sns {
+	margin: 0 auto;
+	max-width: 1040px;
+}
+.sns-container {
+	position: relative;	
+	max-width: 520px;
+	margin: 0 auto;
+}
+
+.sns-icon {
+	position: relative;
+	border-radius: 13px;
+	margin: 0 30px 60px;
+	width: 70px;
+	float: left;
+	
+	-webkit-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.35), inset 0 -1px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .6);
+	-moz-box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.35), inset 0 -1px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .6);
+	box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.35), inset 0 -1px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .6);
+ 
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+ 
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	
+	-webkit-filter: blur(0) grayscale(0.2);
+	-webkit-transform: translateZ(0);
+}
+.sns-icon:hover {
+	-webkit-filter: none;
+	-webkit-animation: sns-icon-hover 100ms linear .8s infinite alternate;
+}
+.sns-icon:before {
+	position: absolute;
+	content: ' ';
+	width: 100%;
+	height: 50%;
+	top: 0;
+	left: 0;
+ 
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+ 
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,.1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,.1)));
+	background: linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,.1) 100%);
+}
+.sns-icon:hover:before {
+	height: 0;
+	
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(255,255,255,.1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(100%,rgba(255,255,255,.1)));
+	background: linear-gradient(top, rgba(255,255,255,0.3) 0%,rgba(255,255,255,.1) 100%);}
+
+.sns-icon:after {
+	position: absolute;
+	content: ' ';
+	width: 100%;
+	height: 30px;
+	bottom: -31px;
+	left: 0;
+ 
+	-webkit-border-top-left-radius: 13px;
+	-webkit-border-top-right-radius: 13px;
+	-moz-border-radius-topleft: 13px;
+	-moz-border-radius-topright: 13px;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+ 
+	background: -moz-linear-gradient(top, rgba(230,230,230,.3) 0%, rgba(230,230,230,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(230,230,230,.3)), color-stop(100%,rgba(230,230,230,0)));
+	background: linear-gradient(top, rgba(230,230,230,.3) 0%,rgba(230,230,230,0) 100%);
+}
+.sns-icon img {
+	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(255, 255, 255, 0.0)), color-stop(80%,rgba(255, 255, 255, 0.1)), color-stop(100%,rgba(255, 255, 255, .3)));
+}
+.sns-fadeout {
+	opacity: 0.5;
+	-webkit-filter: blur(5px) grayscale(0.6);
+}
+
+footer {
+    background: none repeat scroll 0 0 #2F353E;
+}
+footer {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 25px 20px 10px;
+    width: auto;
+}
+
+.contact{
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 8px;
+	line-height: 30px;
+	text-align: center;
+}

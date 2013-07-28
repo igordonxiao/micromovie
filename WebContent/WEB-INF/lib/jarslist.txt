@@ -1,0 +1,22 @@
+#list the jars
+06/10/2013  11:14 PM           445,288 antlr-2.7.7.jar
+06/11/2013  12:13 PM            43,578 asm-3.3.jar
+06/11/2013  12:14 PM           232,019 commons-beanutils-1.8.3.jar
+06/11/2013  12:14 PM           575,389 commons-collections-3.2.1.jar
+06/11/2013  12:11 PM           159,509 commons-io-2.0.1.jar
+06/11/2013  12:11 PM           279,193 commons-lang-2.5.jar
+06/11/2013  12:11 PM            38,015 commons-logging-1.0.4.jar
+06/11/2013  12:14 PM           197,316 commons-net-2.0.jar
+06/10/2013  11:14 PM           313,898 dom4j-1.6.1.jar
+06/11/2013  12:14 PM            77,826 ezmorph-1.0.3.jar
+06/10/2013  11:14 PM            81,830 hibernate-commons-annotations-4.0.2.Final.jar
+06/10/2013  11:14 PM         4,620,254 hibernate-core-4.2.2.Final.jar
+06/10/2013  11:14 PM           102,661 hibernate-jpa-2.0-api-1.0.1.Final.jar
+06/11/2013  12:13 PM           228,286 jackson-core-asl-1.9.2.jar
+06/10/2013  11:14 PM           648,253 javassist-3.15.0-GA.jar
+06/10/2013  11:14 PM            60,768 jboss-logging-3.1.0.GA.jar
+06/10/2013  11:14 PM            25,215 jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+06/11/2013  12:03 PM           159,123 json-lib-2.4-jdk15.jar
+06/11/2013  01:24 PM            20,682 jstl-1.1.2.jar
+06/14/2013  01:46 PM           848,401 mysql-connector-java-5.1.25-bin.jar
+06/11/2013  01:26 PM           393,259 standard-1.1.2.jar
